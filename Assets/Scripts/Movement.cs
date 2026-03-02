@@ -6,7 +6,7 @@ public class Movement : MonoBehaviour
 	public float moveSpeed = 3.5f;
 	public float dashSpeed = 7f;
 	public float mouseSensitivity = 0.5f;
-	[Range(0, 90)] public float lookLimit = 30f;
+	[Range(0, 90)] public float lookLimit = 40f;
 
 	private Rigidbody rb;
 	private Transform playerCamera;
